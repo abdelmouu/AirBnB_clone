@@ -18,7 +18,7 @@ import uuid
 
 class BaseModel:
     """ Base Model class:
-    manages the initialization, serialization, and deserialization 
+    manages the initialization, serialization, and deserialization
     of instances.
     Attributes:
         id (str): A universally unique identifier for each instance.
