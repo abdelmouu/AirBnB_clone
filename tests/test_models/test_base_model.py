@@ -30,6 +30,10 @@ class TestBaseModel(unittest.TestCase):
         cls.base.name = "Eeeeeh"
         cls.base.num = 20
 
+    def setUp(self):
+        """Set up before each test method."""
+        pass
+
     @classmethod
     def teardown(cls):
         """Tear down after the tests."""
@@ -163,7 +167,7 @@ class TestBaseModel(unittest.TestCase):
         """
         Advanced Numeric Attributes Creation from Dictionary Test:
         Test instantiation by passing a dictionary with extra
-	numeric attributes.
+        numeric attributes.
         """
         date = datetime.now()
         dic = {"id": "7734cf23-6c89-4662-8483-284727324c77", "created_at":
@@ -186,7 +190,7 @@ class TestBaseModel(unittest.TestCase):
         """
         Advanced String Attributes Creation from Dictionary Test:
         Test instantiation by passing a dictionary with extra
-	string attributes.
+        string attributes.
         """
         date = datetime.now()
         dic = {"id": "7734cf23-6c89-4662-8483-284727324c77", "created_at":
