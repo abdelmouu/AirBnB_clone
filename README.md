@@ -2,7 +2,7 @@ Introducing the HBnB Console:
 
 This project lays the foundation for an Airbnb clone by creating a console application. This interactive tool allows you to manage various objects within the platform, including Places, Cities, States, Amenities, Users, and Reviews. These objects inherit from a common base class called BaseModel.
 
-Why a Console?
+Why a console?
 
 The console provides a stepping stone towards a full-fledged web application. It empowers you to interact with the system by creating, updating, displaying, counting, and deleting instances of these objects.
 
